@@ -80,7 +80,7 @@ h1 {
 article {
   background: 
     linear-gradient(rgba(0,0,0,.35) 0%, rgba(0,0,0,0) 16%, rgba(0,0,0,0) 84%, rgba(0,0,0,.35)),
-    url(/top-image.png) top no-repeat,
+    url(top-image.png) top no-repeat,
     url(bottom-image.png) bottom no-repeat,
     white;
 }
