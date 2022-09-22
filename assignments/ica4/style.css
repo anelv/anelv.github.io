@@ -10,11 +10,7 @@ html {
   background-color: #ccc;
 }
 
-/* Selectors to be matched up with rulesets */
-
-
-
- 
+/* Selectors to be matched up with rulesets */ 
 
 /* Rulesets to be matched up with selectors */
 
@@ -71,4 +67,20 @@ article p {
   padding: 1em;
   color: white;
   line-height: 1.5em;
+}
+
+
+h1 {
+  background-image: url("logo.png");
+  text-shadow: 4px 4px 4px 4px black;
+  border-radius: 50%;
+
+}
+
+article {
+  background: 
+    linear-gradient(rgba(0,0,0,.35) 0%, rgba(0,0,0,0) 16%, rgba(0,0,0,0) 84%, rgba(0,0,0,.35)),
+    url(/top-image.png) top no-repeat,
+    url(bottom-image.png) bottom no-repeat,
+    white;
 }
