@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:700,500");
 
-h2 {
+.about-me-1 {
     letter-spacing: 0;
     line-height: 5.625rem;
     margin-bottom:1.625rem;
@@ -22,9 +22,4 @@ body {
 h1 {
     font-weight:normal;
     margin: 0;
-
-}
-
-h3 {
-
 }
