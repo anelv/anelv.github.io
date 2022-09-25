@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    font-family: 'Roboto';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 3.75em;
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 600;
     font-size: 3em;
@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Roboto';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 200;
     font-size: 2.25em;
@@ -35,7 +35,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Roboto';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 100;
     font-size: 1.5em;
@@ -44,7 +44,7 @@ h4 {
 }
 
 p {
-    font-family: 'Roboto';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 0,875em;
@@ -53,23 +53,42 @@ p {
 }
 
 /* unvisited link */
-a:link {
+.image:link {
     color: #860B0B;
+    text-decoration: none;
   }
   
   /* visited link */
-  a:visited {
-    text-decoration-line: underline;
+  .image:visited {
+    text-decoration: underline;
     color: #B3B3B3;
   }
   
   /* mouse over link */
-  a:hover {
+  .image:hover {
     color: #B3B3B3;
+    text-decoration: none;
   }
   
   /* selected link */
-  a:active {
+  .image:active {
     color: #F3D9D9;
+    text-decoration: none;
   }
 
+.button1 {
+    background-color: #B3B3B3;
+    border-radius: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 20px;
+    padding: 15px 15px 15px 15px;
+/* or 562% */
+
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
