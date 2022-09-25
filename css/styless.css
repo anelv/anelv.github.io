@@ -8,6 +8,53 @@ body {
 }
 
 h1 {
-    font-weight:normal;
-    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 90px;
+    /* or 94% */
+    color: #000000;
 }
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 90px;
+    /* or 141% */
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 90px;
+    /* or 188% */
+    color: #000000;
+}
+
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 90px;
+    /* or 225% */
+    color: #000000;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 90px;
+    /* or 281% */
+    color: #000000;
+}
+
+
