@@ -31,7 +31,7 @@ h3 {
     font-size: 2.25em;
     
     /* or 188% */
-    color: #000000;
+    color: #860B0B;
 }
 
 h4 {
@@ -39,6 +39,16 @@ h4 {
     font-style: normal;
     font-weight: 100;
     font-size: 1.5em;
+    /* or 225% */
+    color: #000000;
+}
+
+h5 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    font-weight: bold;
     /* or 225% */
     color: #000000;
 }
@@ -52,32 +62,42 @@ p {
     color: #000000;
 }
 
+ul, ol {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0,875em;
+    /* or 281% */
+    color: #000000;
+
+}
+
 /* unvisited link */
-.image:link {
+.job1:link {
     color: #860B0B;
     text-decoration: none;
   }
   
   /* visited link */
-  .image:visited {
+.job1:visited {
     text-decoration: underline;
     color: #B3B3B3;
   }
   
   /* mouse over link */
-  .image:hover {
+.job1:hover {
     color: #B3B3B3;
     text-decoration: none;
   }
   
   /* selected link */
-  .image:active {
-    color: #F3D9D9;
+.job1:active {
+    color: #860B0B;
     text-decoration: none;
   }
 
 .button1 {
-    background-color: #B3B3B3;
+    background-color: #860B0B;
     border-radius: 15px;
     font-family: 'Arial';
     font-style: normal;
@@ -91,4 +111,18 @@ p {
     text-align: center;
 
     color: #FFFFFF;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: #F3D9D9;
+    color: #860B0B;
+    text-decoration: none;
+}
+
+.button1:visited {
+    background-color: #F3D9D9;
+    color: #860B0B;
+    text-decoration: underline;
 }
