@@ -75,7 +75,7 @@ ul, ol {
 /* unvisited link */
 .job1:link {
     color: #860B0B;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   /* visited link */
