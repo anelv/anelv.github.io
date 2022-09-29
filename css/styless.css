@@ -6,6 +6,15 @@ body {
     margin: 5rem;
 }
 
+.grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap:20px;
+  }
+
 h1 {
     font-family: 'Arial';
     font-style: normal;
