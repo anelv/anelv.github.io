@@ -1,12 +1,14 @@
 * 
 
 
+
 body {
     background-color: white;
     margin: 5rem;
 }
 
 /* grid layout for image and lists */
+
 .grid {
     margin: 0 auto;
     padding: 0 20px;
@@ -17,9 +19,8 @@ body {
    
   }
 
-  .feature {
+.feature {
     float: left;
-    margin-right: 30px;
     margin-bottom: 30px;
 }
 
