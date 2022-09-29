@@ -1,7 +1,17 @@
 * 
 
-
-
+/*
+@media screen and (max-width: 1000px) {
+  
+    .grid-container {
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 980px;
+        display: grid;
+    }
+}
+*/
+  
 body {
     background-color: white;
     margin: 5rem;
@@ -9,7 +19,7 @@ body {
 
 /* grid layout for image and lists */
 
-.grid {
+.grid-container {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
@@ -19,13 +29,14 @@ body {
    
   }
 
-.feature {
+/*
+#feature {
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
 }
-
-
+ for html code: id="feature"
+*/
 
 h1 {
     font-family: 'Arial';
