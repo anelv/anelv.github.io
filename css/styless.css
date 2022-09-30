@@ -1,18 +1,4 @@
-* 
-
-/*
-@media screen and (max-width: 1000px) {
-  
-    .grid-container {
-        margin: 0 auto;
-        padding: 0 20px;
-        max-width: 980px;
-        display: grid;
-    }
-}
-*/
-  
-body {
+  body {
     background-color: white;
     margin: 5rem;
 }
@@ -158,3 +144,16 @@ ul, ol {
     color: #860B0B;
     text-decoration: underline;
 }
+
+/*------------------------*/
+
+@media (max-width: 1000px) {
+  
+    .grid-container {
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 980px;
+        display: grid;
+    }
+}
+
