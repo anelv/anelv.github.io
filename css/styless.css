@@ -145,15 +145,22 @@ ul, ol {
     text-decoration: underline;
 }
 
-/*------------------------*/
-
-@media (max-width: 1000px) {
-  
-    .grid-container {
-        margin: 0 auto;
+/*------------------------ 
+ margin: 0 auto;
         padding: 0 20px;
         max-width: 980px;
+*/
+
+@media (max-width:600px) {
+.grid-item {
         display: grid;
+    }
+}
+
+@media (max-width: 600px) {
+  
+    body{
+    color: blue;
     }
 }
 
