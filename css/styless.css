@@ -152,15 +152,20 @@ ul, ol {
 */
 
 @media (max-width:600px) {
-.grid-item {
-        display: grid;
+.grid-container {
+    grid-template-columns: 1fr;
+    gap:20px;
     }
+img {
+    height:auto;
+    width: auto;
 }
 
-@media (max-width: 600px) {
-  
-    body{
-    color: blue;
+}
+
+@media (max-width: 600px) { 
+body{
+color: blue;
     }
 }
 
