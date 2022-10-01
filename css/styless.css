@@ -7,11 +7,11 @@
 
 .grid-container {
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
     max-width: 980px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap:20px;
+    gap: 20px;
    
   }
 
@@ -159,13 +159,8 @@ ul, ol {
 @media (max-width:1000px) {
 .grid-container {
     grid-template-columns: 1fr 1fr;
-    gap:20px;
+    gap:10px;
     }
-
-.grid-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 }
 
 
