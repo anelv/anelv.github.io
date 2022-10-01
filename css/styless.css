@@ -161,6 +161,9 @@ ul, ol {
     grid-template-columns: 1fr 1fr;
     gap:10px;
     }
+.container_2{
+    display: grid;
+}
 }
 
 
@@ -176,7 +179,7 @@ color: blue;
 
 }
 
-@media (max-width: 400px) { 
+@media (max-width: 420px) { 
     body{
     color: red;
         }
