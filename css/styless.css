@@ -174,13 +174,11 @@ ul, ol {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
-}
-
+    }
 }
 @media (max-width:830px) {
     .container_2{
         grid-template-columns: 1fr;
-
     }
 }
 
@@ -196,7 +194,7 @@ color: blue;
 
 }
 
-@media (max-width: 420px) { 
+@media (max-width: 5000px) { 
     body{
     color: red;
         }
