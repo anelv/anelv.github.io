@@ -1,13 +1,23 @@
   body {
     background-color: white;
-    margin: 4rem;
+    margin: 0;
 }
 
 /* grid layout for image and lists */
 
-.content {
-    margin: 5rem;
-}
+.logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    
+  }
+
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+
+  }
 
 nav {
     background-color: #000;
