@@ -67,14 +67,6 @@ nav {
     height: auto;
   }
 
-/*
-#feature {
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
- for html code: id="feature"
-*/
 
 h1 {
     font-family: 'Arial';
@@ -221,58 +213,55 @@ ul, ol {
 }
 
 @media (max-width: 620px) { 
-body{
-color: blue;
-    }
-
-.grid-container {
-    grid-template-columns: 1fr;
-    gap:20px;
-    }
+    body{
+        color: red;
+            }
+        
+        .grid-container {
+            grid-template-columns: 1fr;
+            gap:20px;
+            }
+    
+        .bottom {
+            text-align: center;
+        }
+    
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 3.25em;
+        }
+        
+        h2 {
+            text-align: center;
+            font-weight: 600;
+            font-size: 2.50em;
+        }
+        
+        h3 {
+            text-align: center;
+            font-weight: 400;
+            font-size: 1.75em;
+        
+        }
+        
+        h4 {
+            text-align: center;
+        }
+        
+        h5 {
+            text-align: center;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
 
 }
+/*
+@media (max-width: 575px) { 
 
-@media (max-width: 500px) { 
-    body{
-    color: red;
-        }
-    
-    .grid-container {
-        grid-template-columns: 1fr;
-        gap:20px;
-        }
-
-    h1 {
-        text-align: center;
-        font-weight: 700;
-        font-size: 3.25em;
-    }
-    
-    h2 {
-        text-align: center;
-        font-weight: 600;
-        font-size: 2.50em;
-    }
-    
-    h3 {
-        text-align: center;
-        font-weight: 400;
-        font-size: 1.75em;
-    
-    }
-    
-    h4 {
-        text-align: center;
-    }
-    
-    h5 {
-        text-align: center;
-    }
-    
-    p {
-        text-align: center;
-    }
-    
         
     }
 
