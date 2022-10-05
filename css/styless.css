@@ -7,8 +7,10 @@
 
 .logo {
     font-size: 200%;
-    padding: 50px 20px;
     margin: 0 auto;
+    color: #F3D9D9; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
     
   }
 
@@ -23,14 +25,16 @@ nav {
     padding: .5em;
     position: sticky; 
     top:0;
+    height: 40px;
   }
   
   nav ul {
     margin: 0;
-    padding: 0;
+    padding: 10px 20px 20px 20px;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    float:right;
   }
   
   nav a {
@@ -225,6 +229,10 @@ ul, ol {
         .bottom {
             text-align: center;
         }
+
+        .project {
+            text-align: right;
+        }
     
         h1 {
             text-align: center;
@@ -247,6 +255,8 @@ ul, ol {
         
         h4 {
             text-align: center;
+            font-weight: 300;
+            font-size: 1.5rem;
         }
         
         h5 {
@@ -259,9 +269,5 @@ ul, ol {
         
 
 }
-/*
-@media (max-width: 575px) { 
 
-        
-    }
 
