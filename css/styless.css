@@ -1,3 +1,6 @@
+html {
+    margin:0;
+}
   body {
     background-color: white;
     margin: 0;
@@ -20,6 +23,7 @@ nav {
     position: sticky; 
     top:0;
     height: 40px;
+    z-index: 1;
   }
   
   nav ul {
@@ -39,6 +43,7 @@ nav {
 
   nav a:hover, nav a:active {
     background-color: #860B0B;
+    border-radius: 20px;
   }
 
 .grid {
@@ -62,6 +67,16 @@ nav {
     text-align: left;
 }
 
+#about {
+    background-color: #860B0B;
+    border-style: ridge;
+    border-radius: 20px;
+}
+#about h6, p {
+    color: #FFFFFF;
+    margin: 20px;
+}
+
 .container_2 {
     margin: 0 auto;
     padding: 0 10px;
@@ -78,6 +93,7 @@ nav {
 
 video {
     max-width: 95%;
+    z-index: 0;
 }  
 
 h1 {
