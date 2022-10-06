@@ -47,6 +47,11 @@ nav {
     background-color: #860B0B;
   }
 
+.title{
+    font-style: italic;
+    text-align: left;
+}
+
 .grid-container {
     margin: 0 auto;
     padding: 0 10px;
@@ -71,6 +76,9 @@ nav {
     height: auto;
   }
 
+video {
+    max-width: 95%;
+}  
 
 h1 {
     font-family: 'Arial';
@@ -118,6 +126,17 @@ h5 {
     /* or 225% */
     color: #000000;
 }
+
+h6 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.05em;
+    font-weight: thin;
+    /* or 225% */
+    color: #860B0B;
+}
+
 
 p {
     font-family: 'Arial';
@@ -225,7 +244,7 @@ ul, ol {
             grid-template-columns: 1fr;
             gap:20px;
             }
-    
+
         .bottom {
             text-align: center;
         }
@@ -265,6 +284,7 @@ ul, ol {
         
         p {
             text-align: center;
+            font-size: .80rem;
         }
         
 
