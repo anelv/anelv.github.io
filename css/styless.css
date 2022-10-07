@@ -67,7 +67,7 @@ nav {
     text-align: left;
 }
 
-#about {
+#about.grid-item {
     background-color: #860B0B;
     border-style: ridge;
     border-radius: 20px;
@@ -76,6 +76,27 @@ nav {
     color: #FFFFFF;
     margin: 20px;
 }
+
+/* attempt using class for border */
+.about {
+    background-color: #860B0B;
+    border-style: ridge;
+    border-radius: 20px;
+}
+.about h6 {
+    color: #FFFFFF;
+    margin: 20px;
+}
+.about p {
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.resource {
+    text-align: center;
+}
+
+/*___________*/
 
 .container_2 {
     margin: 0 auto;
