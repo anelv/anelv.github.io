@@ -67,16 +67,6 @@ nav {
     text-align: left;
 }
 
-#about.grid-item {
-    background-color: #860B0B;
-    border-style: inset;
-    border-radius: 20px;
-}
-#about h6, p {
-    color: #FFFFFF;
-    margin: 20px;
-}
-
 /* attempt using class for border */
 .about {
     background-color: #860B0B;
@@ -116,6 +106,15 @@ nav {
     gap: 20px;
 }
 
+.container_4 {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
 .responsive {
     max-width: 100%;
     height: auto;
@@ -136,9 +135,18 @@ video {
     border-radius: 20px;
 }
 
-
 audio {
     max-width: 80%;
+}
+
+.photo_container {
+    text-align: center;
+}
+
+.about_photo {
+    background-color: #B3B3B3;
+    border-style: inset;
+    border-radius: 20px;
 }
 
 .pg4_about {
@@ -319,7 +327,7 @@ ul, ol {
 
         .project {
             text-align: right;
-        }
+        }      
     
         h1 {
             text-align: center;
