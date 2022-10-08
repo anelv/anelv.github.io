@@ -4,6 +4,7 @@ html {
   body {
     background-color: white;
     margin: 0;
+    margin-bottom: 25px;
 }
 
 /* grid layout for image and lists */
@@ -127,6 +128,10 @@ video {
 
 .audio_container {
     text-align: center;
+}
+
+.audio_container h6 {
+    margin-top: 0;
 }
 
 .about_audio {
