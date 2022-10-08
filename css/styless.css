@@ -69,7 +69,7 @@ nav {
 
 #about.grid-item {
     background-color: #860B0B;
-    border-style: ridge;
+    border-style: inset;
     border-radius: 20px;
 }
 #about h6, p {
@@ -80,7 +80,7 @@ nav {
 /* attempt using class for border */
 .about {
     background-color: #860B0B;
-    border-style: ridge;
+    border-style: inset;
     border-radius: 20px;
 }
 .about h6 {
@@ -107,6 +107,15 @@ nav {
     gap: 20px;
 }
 
+.container_3 {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
 .responsive {
     max-width: 100%;
     height: auto;
@@ -116,6 +125,25 @@ video {
     max-width: 95%;
     z-index: 0;
 }  
+
+.audio_container {
+    text-align: center;
+}
+
+.about_audio {
+    background-color: #F3D9D9;
+    border-style: inset;
+    border-radius: 20px;
+}
+
+
+audio {
+    max-width: 80%;
+}
+
+.pg4_about {
+    text-align: center;
+}
 
 h1 {
     font-family: 'Arial';
@@ -167,9 +195,8 @@ h5 {
 h6 {
     font-family: 'Arial';
     font-style: normal;
-    font-weight: 400;
     font-size: 1.05em;
-    font-weight: lighter;
+    font-weight: 300;
     /* or 225% */
     color: #860B0B;
 }
@@ -281,6 +308,10 @@ ul, ol {
             grid-template-columns: 1fr;
             gap:20px;
             }
+
+        .container_3 {
+            grid-template-columns: 1fr;
+        }
 
         .bottom {
             text-align: center;
