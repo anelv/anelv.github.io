@@ -1,0 +1,21 @@
+#myDiv {
+    
+    width: 200px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: slateblue;
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+#myDiv2 {
+    background-color: skyblue;
+    width: 200px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: slategray;
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+}
