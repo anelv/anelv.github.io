@@ -224,6 +224,7 @@ p {
     color: #000000;
 }
 
+
 ul, ol {
     font-family: 'Arial';
     font-style: normal;
@@ -289,6 +290,18 @@ ul, ol {
     text-decoration: underline;
 }
 
+/*silly story*/
+
+body.sillystory{
+    text-align: center;
+    margin-left:10px;
+    margin-top: 10px;
+    background-color: #F3D9D9;
+}
+
+p.story {
+    background-color: #B3B3B3;
+}
 
 /*------------------------ 
  margin: 0 auto;
