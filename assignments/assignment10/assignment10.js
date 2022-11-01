@@ -63,11 +63,12 @@ let json = {
   //   }
   // }
 
-  // for (let i = 0; i < 4; i++) {
-  //   if (json["employees"][i]["raise eligible"] == true) {
-  //     json["employees"]["salary"] = (json["employees"]["salary"] * 2);
-  //   }
-  // }
-  // console.log(json);
+  for (let i = 0; i < 4; i++) {
+    if (json["employees"][i]["raise eligible"] == true) {
+      json["employees"][i]["salary"] = (json["employees"][i]["salary"] * .10) + json["employees"][i]["salary"];
+      json["employees"][i]["raise eligible"] = false;
+    }
+  }
+  console.log(json);
 
 
