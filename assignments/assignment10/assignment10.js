@@ -47,21 +47,7 @@ let json = {
   }
   console.log(totalSalary); //print updated JSON to console for #4
 
-//attempting #5
-
-  // for (const employee in json["employees"]){
-  //   if (employee["raise eligible"] = true) {
-  //     employee["salary"] = (employee["salary"] * .1);
-  //     employee["raise eligible"] = false; 
-  //   }
-  // }
-
-  //this works, figure out how to add new values
-  // for (let i = 0; i < 4; i++) {
-  //   if (json["employees"][i]["raise eligible"] == true) {
-  //     console.log("ITS TRUE!!")
-  //   }
-  // }
+//Question #5
 
   for (let i = 0; i < 4; i++) {
     if (json["employees"][i]["raise eligible"] == true) {
