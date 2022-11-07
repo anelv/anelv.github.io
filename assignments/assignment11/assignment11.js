@@ -4,7 +4,7 @@ quoteButton.addEventListener('click', getQuote);
 const doggo = document.querySelector('img');
 
 const endpoint = 'http://www.boredapi.com/api/activity';
-const endpoint2 = 'https://dog.ceo/api/breeds/image/random'
+const endpoint2 = 'http://dog.ceo/api/breeds/image/random'
 
 
 async function getQuote() {
