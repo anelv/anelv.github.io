@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-image: url(/img/cute_background.jpg);
+}
+  
+  
+  .app {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 600px;
+    background-color: rgba(173, 216, 230, 0.593);
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.312), 0 3px 1px -2px rgba(0,0,0,.312), 0 1px 5px 0 rgba(0,0,0,.312);
+  }
+  
+  header {
+    width: 100%;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid #ebebeb;
+    color: rgb(107, 38, 101);
+  }
+  
+  .quotes {
+    text-align: center;
+    padding: 10px ;
+    max-height: 200px;
+    font-weight: 100;
+    
+  }
+  
+  .quote-text {
+    padding-bottom: 5px;
+    font-size: 25px;
+    color:rgb(147, 134, 20);
+  }
+  
+  .controls {
+    width: 100%;
+    padding: 20px 50px;
+  }
+  
+  .button {
+    display: block;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  
+  
+  .new-quote {
+    background-color: #4A2B0F;
+    margin-bottom: 15px;
+  }
+  
+  .new-quote:hover {
+    background-color: #6d3b0e;
+  }
+  
+  .new-quote:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  
+/* new button for images  & image section*/
+
+  .new-image {
+    background-color: #4A2B0F;
+    margin-bottom: 15px;
+  }
+
+  .new-image:hover {
+    background-color: #6d3b0e;
+  }
+
+  .new-image:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+
+  img {
+    height:300px;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .dogpic {
+    padding: 10px ;
+    
+  }
+
+  .dogpics {
+    
+    min-height: 300px;
+  }
+
+
+  
+  @media screen and (max-width: 600px) {
+    .app {
+      width: 100%;
+    }
+    .quote-text {
+      font-size: 18px;
+    }
+
+    img {
+      width: 500px;
+    }
+
+    .doggo {
+      text-align: center;
+    }
+
+  }
