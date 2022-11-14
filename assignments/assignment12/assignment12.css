@@ -1,13 +1,50 @@
-html {
+html, input{
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(128, 0, 0);
+}
+
+body {
+    border-style: dashed;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px #000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    padding: 25px;
+}
+.instructions {
+    background-color: rgb(219, 157, 0);
+    text-align: center;
+    border-radius: 10px;
 }
 
 .slot-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2px;
+    grid-gap: 35px;
     text-align: center;
+    margin: 25px;
 }
+
+.areacode {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slot1, .slot2, .slot3 {
+    background-color: darkgreen;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
 
 form {
     display: grid;
@@ -21,14 +58,34 @@ input {
 }
 
 .spin-butt1, .spin-butt2, .spin-butt3  {
-    background-color: #000000;
+    background-color: #d70000;
     color: #FFFFFF;
     float: right;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 50px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     width: 100px;
     height: 50px;
     justify-content: center;
 }
+
+.submitarea {
+    margin: 20px;
+    padding: 20px;
+    border-style: groove;
+    border-color:  rgb(219, 157, 0);
+}
+
+.submit-button {
+    background-color: rgb(219, 157, 0);
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 300px;
+    height: 75px;
+    justify-content: center;
+}
+
