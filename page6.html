@@ -13,59 +13,54 @@
     <link rel="stylesheet" href="./css/styless.css">
 </head>
 <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<nav>
-    <label class="logo">L</label>
-    <ul>
-        <li>
+    <div class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
-        </li>
-        <li>
         <a href="page2.html">Documentary Projects</a>
-        </li>
-        <li>
         <a href="page3.html">Transitional Work</a>
-        </li>
-        <li>
-        <a href="page6.html">Art Generator</a>
-        </li>
-        <li>
+        <a href="page6.html" class="active">Art Generator</a>
         <a href="page5.html">Upcoming Work</a>
-    </li>
-        <li>
         <a href="page4.html">About</a>
-        </li>
-    </ul>
-</nav>
-
-    <!--All the buttons and sliders-->
-    <div class="wrapper">
-        <div class="options">
-            <div class="opt-wrapper">
-                <div class="slider">
-                    <label for="width-range"> Grid Width </label>
-                    <input type="range" id="width-range" min="1" max="35">
-                    <span id="width-value">00</span>
-                </div>
-                <div class="slider">
-                    <label for="height-range"> Grid Height </label>
-                    <input type="range" id="height-range" min="1" max="35">
-                    <span id="height-value">00</span>
-                </div>
-            </div>
-            <div class="opt-wrapper">
-                <button id="submit-grid">Create Grid</button>
-                <button id="clear-grid">Clear Grid</button>
-                <p> Select Color:</p>
-                <input type="color" id="color-input">
-                <button id="erase-btn">Erase</button>
-                <button id="paint-btn">Paint</button>
-            </div>
-        </div>
-        <div class="container"></div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
     </div>
 
+<main class="art-grid">
+<h1>Interactive Project - Pixel Art Generator</h1>
+<h3>Let Your Creativity Shine</h3> 
+<hr>
+    <div class="art-grid-container">
+        <!--All the buttons and sliders-->
+        <div class="wrapper">
+            <div class="options">
+                <div class="opt-wrapper">
+                    <div class="slider">
+                        <label for="width-range"> Grid Width </label>
+                        <input type="range" id="width-range" min="1" max="35">
+                        <span id="width-value">00</span>
+                    </div>
+                    <div class="slider">
+                        <label for="height-range"> Grid Height </label>
+                        <input type="range" id="height-range" min="1" max="35">
+                        <span id="height-value">00</span>
+                    </div>
+                </div>
+                <div class="opt-wrapper">
+                    <button id="submit-grid">Create Grid</button>
+                    <button id="clear-grid">Clear Grid</button>
+                    <p> Select Color:</p>
+                    <input type="color" id="color-input">
+                    <button id="erase-btn">Erase</button>
+                    <button id="paint-btn">Paint</button>
+                </div>
+            </div>
+            <div class="container"></div>
+        </div>
+    </div>
 
+</main>
     <!--Script-->
 <script src="./art_generator/art_gen.js"> </script>
 </body>

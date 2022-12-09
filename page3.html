@@ -8,30 +8,19 @@
     <link rel="stylesheet" href="css/styless.css" >
 </head>
 <body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <nav>
-    <label class="logo">L</label>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="page2.html">Documentary Projects</a>
-      </li>
-      <li>
-        <a href="page3.html">Transitional Work</a>
-      </li>
-      <li>
-        <a href="page6.html">Art Generator</a>
-      </li>
-      <li>
-        <a href="page5.html">Upcoming Work</a>
-    </li>
-      <li>
-        <a href="page4.html">About</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="page2.html">Documentary Projects</a>
+      <a href="page3.html" class="active">Transitional Work</a>
+      <a href="page6.html">Art Generator</a>
+      <a href="page5.html">Upcoming Work</a>
+      <a href="page4.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
 
     <main class="grid">
       <h1>Transitional Work</h1>
@@ -127,8 +116,6 @@
       </div>
 
     </main>
-      
-  
-
+    <script src="./art_generator/art_gen.js"> </script>
 </body>
 </html>
