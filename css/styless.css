@@ -388,9 +388,11 @@ p.story {
 }
 
 @media (max-width: 620px) { 
+    /* query checker - 
     body{
         color: red;
             }
+        */
     
         
         .grid-container {
