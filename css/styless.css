@@ -108,15 +108,20 @@ a {
     text-align: left;
 }
 
+
 /* attempt using class for border */
 .about {
     background-color: #860B0B;
     border-style: inset;
     border-radius: 20px;
+
+    padding: 5px 10px;
+    font-size: .9em;
 }
 .about h6 {
     color: #FFFFFF;
     margin: 20px;
+    font-size: large;
 }
 .about p {
     color: #FFFFFF;
@@ -178,6 +183,8 @@ video {
     background-color: #F3D9D9;
     border-style: inset;
     border-radius: 20px;
+    padding: 5px 10px;
+    font-size: .9em;
 }
 
 audio {
@@ -192,6 +199,12 @@ audio {
     background-color: #D9D9D9;
     border-style: inset;
     border-radius: 20px;
+    padding: 5px 10px;
+    font-size: .9em;
+}
+
+.p-d {
+    padding: 0 10px;
 }
 
 .pg4_about {
@@ -259,7 +272,7 @@ p {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.875em;
+    font-size: 0.99em;
     /* or 281% */
     color: #000000;
 }
@@ -364,8 +377,9 @@ p.story {
 .container_2{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr;
+    /* makes wierd gap --> grid-template-rows: 2fr; */
     }
+
 }
 @media (max-width:830px) {
     .container_2{
@@ -377,6 +391,7 @@ p.story {
     body{
         color: red;
             }
+    
         
         .grid-container {
             grid-template-columns: 1fr;
@@ -434,30 +449,24 @@ p.story {
         
         p {
             text-align: center;
-            font-size: .80rem;
+            font-size: .90rem;
+        }
+
+    }
+
+    
+    @media (max-width: 480px) {
+
+        .options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .opt-wrapper {
+            display: grid;
         }
     }
     
-    /* NAV Bar Query */
-
-    @media (max-width: 775px) {
-
-        nav {
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            height: auto;
-        }
-        
-        nav ul {
-            flex-direction: column;
-        }
-        
-        nav li {
-            margin: 0.8em 0;
-        }
-        
-}
+    
 
 /* ART GENERATOR */
 
@@ -514,7 +523,7 @@ button {
     font-weight: 700;
     font-size: 0.875rem;
     line-height: 20px;
-    padding: 15px 15px 15px 15px;
+    /* padding: 15px 15px 15px 15px; */
 /* or 562% */
 
     align-items: center;
@@ -575,3 +584,6 @@ label{
 .gridRow {
     display: flex;
 }
+
+/*art generator media query */ 
+
