@@ -455,17 +455,6 @@ p.story {
     }
 
     
-    @media (max-width: 480px) {
-
-        .options {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-        .opt-wrapper {
-            display: grid;
-        }
-    }
-    
     
 
 /* ART GENERATOR */
@@ -586,4 +575,16 @@ label{
 }
 
 /*art generator media query */ 
+
+@media (max-width: 480px) {
+
+    .options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .opt-wrapper {
+        display: grid;
+        
+    }
+}
 
