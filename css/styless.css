@@ -103,6 +103,10 @@ a {
    
   }
 
+.stills {
+    text-align: center;
+}
+
 .title{
     font-style: italic;
     text-align: left;
@@ -286,6 +290,16 @@ ul, ol {
     /* or 281% */
     color: #000000;
 
+}
+
+.thesis{
+    text-align: center;
+}
+
+.thanks {
+    text-align: center;
+    font-size: small;
+    color: #860B0B;
 }
 
 /* unvisited link */
